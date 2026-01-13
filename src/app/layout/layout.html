@@ -1,0 +1,33 @@
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">School Transport</h2>
+
+    <nav>
+      <ul>
+        <li><a routerLink="/dashboard">لوحة التحكم</a></li>
+        <li><a routerLink="/students">الطلاب</a></li>
+        <li><a routerLink="/drivers">السائقين</a></li>
+        <li><a routerLink="/buses">الحافلات</a></li>
+        <li><a routerLink="/routes">الخطوط</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <!-- Header -->
+    <header class="header">
+      <span>مرحبًا دعاء 👋</span>
+    </header>
+
+    <!-- Page Content -->
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+
+  </div>
+
+</div>

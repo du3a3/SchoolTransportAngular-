@@ -1,0 +1,67 @@
+
+.layout {
+  display: flex;
+  height: 100vh;
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 8px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background: #3b82f6;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background: #f1f5f9;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+  background: #f8fafc;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
